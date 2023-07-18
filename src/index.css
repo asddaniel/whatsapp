@@ -1,0 +1,26 @@
+:root {
+padding: 0px;
+margin: 0px;
+}
+
+a {
+  
+  color: inherit;
+  text-decoration: inherit;
+}
+a:hover {
+  color: inherit;
+}
+
+
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  
+ 
+}

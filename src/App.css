@@ -1,0 +1,84 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.aspect-carre{
+  aspect-ratio: 1!important;
+}
+.round-carre{
+  border-radius: 7em/7em!important;
+  aspect-ratio: 1!important;
+  max-height: 7rem;
+  object-fit: cover!important;
+}
+.bg-green{
+  background-color: rgb(6, 151, 96)!important;
+  
+}
+.transitive{
+  transition: all 0.5s ease-in-out;
+}
+.aller{
+  transform: translateX(30vw)!important;
+}
+.p-status{
+  font-size: small!important;
+  padding: .12rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.size-small{
+  font-size: small!important;
+}
+.colonne-4{
+  flex: 0 0 auto!important;
+    width: 33.33333333%!important;
+}
+.text-green{
+  color: rgb(6, 151, 96)!important;
+}
+.border-green{
+  border-color: rgb(6, 151, 96)!important;
+  border: var(--bs-border-width) var(--bs-border-style) #1dc112!important
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.h-full {
+  height: 100vh!important;
+
+  width: 100vw!important;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+@media screen and (max-width: 768px) {
+  .round-carre{
+    
+   
+    aspect-ratio: 1!important;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover!important;
+  }
+}
+
